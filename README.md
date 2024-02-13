@@ -8,3 +8,11 @@
 ![header light](demo/headerlight.png)
 
 ![header dark](demo/headerdark.png)
+
+![tours](demo/tours.png)
+![att](demo/att.png)
+![footer](demo/footer.png)
+
+
+
+
