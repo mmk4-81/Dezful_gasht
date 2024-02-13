@@ -5,3 +5,6 @@
 ---
 ![register](demo/register.png)
 ---
+![header light](demo/headerlight.png)
+
+![header dark](demo/headerdark.png)
