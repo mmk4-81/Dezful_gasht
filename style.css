@@ -2,3 +2,9 @@
     font-family: B Yekan;
     src: url(/assets/fonts/Yekan.ttf);
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
