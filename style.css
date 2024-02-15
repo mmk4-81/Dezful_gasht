@@ -61,3 +61,6 @@ body {
 .menu_item:hover {
     border-bottom: 3px solid #0077ff;
 }
+.navlink {
+    text-decoration: none;
+}
