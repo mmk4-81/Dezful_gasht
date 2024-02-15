@@ -14,3 +14,7 @@
     --background:#fff;
     --color: #000;
 }
+body {
+    font-family: 'B Yekan', tahoma, arial;
+    background-color:var(--background) ;
+}
