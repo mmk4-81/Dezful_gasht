@@ -18,3 +18,14 @@ body {
     font-family: 'B Yekan', tahoma, arial;
     background-color:var(--background) ;
 }
+.header_top {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    background-color: var(--background);
+    justify-content: start;
+    padding: 5px 0;
+}
