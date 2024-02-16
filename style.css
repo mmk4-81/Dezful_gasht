@@ -64,3 +64,29 @@ body {
 .navlink {
     text-decoration: none;
 }
+
+.loginlink {
+    text-decoration: none;
+}
+.header_left .header_login {
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: 30px;
+}
+
+.header_left p {
+    padding: 7px;
+    color: var(--primary-color);
+    cursor: pointer;
+    border-radius: 12px;
+
+}
+.header_left {
+    display: flex;
+}
+
+.header_left p {
+    padding: 5px 20px;
+    color: var(--primary-color);
+    cursor: pointer;
+}
