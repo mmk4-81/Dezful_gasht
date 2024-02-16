@@ -181,3 +181,134 @@ body {
     margin-bottom: 50px;
 
 }
+
+/*tour*/
+.tour_card_item {
+    display: none;
+    transition: opacity 0.5s ease;
+  }
+  
+  .tour_card_item.active {
+    display: block;
+    opacity: 1;
+  }
+  
+
+
+.tour_section_title {
+    text-align: center;
+    margin: 30px 0;
+    color: var(--color);
+}
+.visit_h{
+    margin-right: 330px;
+    background-color: #0077ff;
+    color: #e0efff;
+
+}
+.visit_all {
+    text-decoration: none;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 50px;
+    font-weight: 600;
+    color: #0077ff;
+    background-color: #e0efff;
+    margin: 0 160px 10px;
+    display: block;
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid #0077ff;
+
+}
+
+.visit_all:hover {
+    background-color: #0077ff;
+    color: #e0efff;
+}
+
+.tour_img {
+    width: 100%;
+    border-radius: 12px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.tour_list {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.tour_card_item {
+    margin: 0 20px;
+    background-color: var(--background);
+    border: 1px solid #bacdd8;
+    padding: 8px;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+.tour_card_tag {
+    padding: 4px 8px;
+    border: 1px solid #e5eaed;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--color);
+}
+
+.tour_card_name {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.visit {
+    border: none;
+    padding: 12px 24px;
+    border-radius: 50px;
+    font-weight: 600;
+    color: #0077ff;
+    background-color: #e0efff;
+    margin: 10px auto;
+    display: block;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: #0077ff;
+    color: #e0efff;
+}
+
+.money {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.tour_card_item {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, font-size 0.3s ease-in-out;
+    color: var(--color);
+}
+
+.caret-container {
+    display: none;
+}
+
+.tour_card_item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    font-size: 1.1em;
+}
+
+#link {
+    text-decoration: none;
+}
