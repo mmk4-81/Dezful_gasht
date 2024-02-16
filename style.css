@@ -17,6 +17,7 @@
 body {
     font-family: 'B Yekan', tahoma, arial;
     background-color:var(--background) ;
+    width: 576px;
 }
 .header_top {
     display: flex;
