@@ -90,3 +90,46 @@ body {
     color: var(--primary-color);
     cursor: pointer;
 }
+.header_bottom {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header_bottom_right {
+    width: 100%;
+    padding: 0px 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+.title {
+    margin: 20px 10px 10px;
+    font-size: 25px;
+    color: var(--primary-color);
+
+}
+
+#desc {
+    width: 90%;
+
+}
+
+.desc {
+    color: var(--primary-color);
+    margin-bottom: 15px;
+    padding: 0px 10px;
+    font-size: 15px;
+
+}
+
+.info {
+    color: var(--color);
+    line-height: 27px;
+    text-align: justify;
+}
+
+#info {
+    width: 90%;
+    padding: 0 10px;
+}
