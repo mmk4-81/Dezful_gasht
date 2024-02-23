@@ -341,3 +341,33 @@ button:hover {
     border-radius: 50%;
     object-fit: cover;
 }
+
+.leader-details {
+    padding: 20px;
+}
+
+.leader-details h2 {
+    color: var(--color);
+}
+
+.leader-details p {
+    margin: 10px 0;
+    color: var(--color);
+}
+
+.leader_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.leader-card {
+    margin: 10px 20px;
+}
+
+.leader-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
