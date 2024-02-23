@@ -333,3 +333,11 @@ button:hover {
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, font-size 0.3s ease-in-out;
     cursor: pointer;
 }
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+}
