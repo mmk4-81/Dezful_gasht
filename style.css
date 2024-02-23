@@ -371,3 +371,9 @@ button:hover {
     transform: scale(1.05);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
+
+.Attractions_title {
+    text-align: center;
+    margin: 80px 0 40px;
+    color: var(--color);
+}
