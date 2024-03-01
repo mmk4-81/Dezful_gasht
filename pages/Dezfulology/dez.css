@@ -1,0 +1,29 @@
+.galery{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tour_card_name{
+  font-size: 20px;
+    font-weight: 500;
+}
+
+.tour_card_item {
+  margin: 20px 40px 20px 0px;
+  width: 80%;
+}
+@media screen and (min-width:576px) {
+  .tour_card_item {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .tour_card_item {
+    width: 20%;
+  }
+}
+.tour_card_item {
+  display: block;
+}

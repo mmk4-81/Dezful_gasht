@@ -9,16 +9,22 @@
     box-sizing: border-box;
 }
 
+
 :root{
     --primary-color:#288ed9;
     --background:#fff;
     --color: #000;
 }
+.dark-mod{
+    --background:#282727;
+    --color: #fff;
+}
 body {
     font-family: 'B Yekan', tahoma, arial;
     background-color:var(--background) ;
-    width: 576px;
 }
+
+
 .header_top {
     display: flex;
     align-items: center;
@@ -30,6 +36,8 @@ body {
     justify-content: start;
     padding: 5px 0;
 }
+
+
 
 .header_right {
     display: flex;
@@ -62,13 +70,25 @@ body {
 .menu_item:hover {
     border-bottom: 3px solid #0077ff;
 }
-.navlink {
-    text-decoration: none;
+
+.header_left {
+    display: flex;
 }
 
+.header_left p {
+    padding: 5px 20px;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+.mod{
+    color: var(--primary-color);
+    cursor: pointer;
+font-size: 24px;
+}
 .loginlink {
     text-decoration: none;
 }
+
 .header_left .header_login {
     background-color: var(--primary-color);
     color: #fff;
@@ -82,15 +102,11 @@ body {
     border-radius: 12px;
 
 }
-.header_left {
-    display: flex;
+
+.navlink {
+    text-decoration: none;
 }
 
-.header_left p {
-    padding: 5px 20px;
-    color: var(--primary-color);
-    cursor: pointer;
-}
 .header_bottom {
     display: flex;
     flex-direction: column;
@@ -104,6 +120,11 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.header_bottom_left {
+    padding-left: 10px;
+}
+
 .title {
     margin: 20px 10px 10px;
     font-size: 25px;
@@ -313,7 +334,6 @@ button:hover {
     text-decoration: none;
 }
 
-
 /*leaders*/
 .leaders_section_title {
     text-align: center;
@@ -371,7 +391,6 @@ button:hover {
     transform: scale(1.05);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
-
 
 /*galery*/
 
@@ -496,40 +515,6 @@ button:hover {
     margin-right: 12px;
 }
 
-/* سوالات متداول */
-.faq {
-    width: 80%;
-    margin: 20px auto;
-    color: var(--color);
-
-}
-.feqtitle{
-    margin: 10px 10px 10px 0 ;
-}
-.q-item {
-    border: 1px solid #ddd;
-    border-radius: 12px;
-}
-
-.q-header {
-    background-color: #f5f5f5;
-    padding: 10px;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 2px;
-color: #000;
-}
-
-.q-body {
-    padding: 15px;
-    display: none;
-}
-
-strong {
-    color: #007bff;
-}
-
-
 /*footer*/
 footer{
     width: 1300px;
@@ -589,3 +574,427 @@ footer{
     padding: 5px;
 
 }
+
+@media screen and (min-width: 576px) {
+    .header_top {
+        justify-content: start;
+
+    }
+
+    .header_right {
+        margin-left: 100px;
+
+    }
+
+    #logo {
+        margin-left: 10px;
+    }
+
+    .menu_item {
+        padding: 10px;
+        color: var(--color);
+        font-size: 18px;
+        cursor: pointer;
+    }
+
+    .selected {
+        background-color: var(--primary-color);
+        color: #fff;
+        border-radius: 12px;
+    }
+
+    .header_bottom {
+        flex-direction: column;
+    }
+
+    .header_bottom_right {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .mod{
+        padding: 6px 20px;
+    }
+    .title {
+        margin: 20px 20px 10px;
+        font-size: 35px;
+
+    }
+
+    #desc {
+        width: 100%;
+    }
+
+    .desc {
+        color: var(--primary-color);
+        padding: 0px 20px;
+        margin-bottom: 15px;
+        font-size: 15px;
+
+    }
+
+    #info {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .container_card {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card {
+        width: 150px;
+    }
+
+    .header_bottom_left img {
+        height: 600px;
+    }
+
+    .container_card {
+        display: flex;
+        padding: 15px;
+    }
+
+    .card {
+        width: 120px;
+    }
+    .header_bottom_left img {
+        height: 550px;
+    }
+    .visit_all {
+        
+        margin: 0 230px 10px;
+    
+    }
+    .tour_list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tour_card_item {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .caret-container {
+        display: none;
+    }
+
+    .leader_list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container_glass {
+        width: 100%;
+    }
+
+    .glass {
+        width: 20%;
+        height: 100px;
+        margin: 20px 8px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        text-align: center;
+        padding: 0 30px;
+
+    }
+
+    .container_glass {
+        display: flex;
+        margin-right: 15px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+        padding: 0 10px;
+        margin-bottom: 1px;
+
+    }
+
+    .aboutus {
+        width: 25%;
+    }
+
+    .socials {
+        width: 25%;
+        padding: 20px 0;
+        order: 0;
+    }
+
+    .contactus {
+        margin-right: 2px;
+        width: 20%;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .header_top {
+        justify-content: space-between;
+       padding: 20px ;
+
+    }
+
+
+    #logo {
+        margin-left: 10px;
+    }
+
+    .menu_item {
+        padding: 10px;
+        color: #999;
+        font-size: 18px;
+        cursor: pointer;
+    }
+
+    .selected {
+        background-color: var(--primary-color);
+        color: #fff;
+        border-radius: 12px;
+    }
+    .header_bottom_right{
+        width: 80%;
+    }
+    
+    .title {
+        margin: 20px 5px 10px;
+        font-size: 35px;
+
+    }
+
+    .container_card {
+        display: flex;
+        padding: 15px;
+    }
+
+    .card {
+        width: 150px;
+    }
+
+    .header_bottom_right {
+        margin-right: 100px;
+
+    }
+
+    .header_bottom_left img {
+        height: 650px;
+        margin-right: 50px;
+    }
+
+    .tour_list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .visit_all {
+        
+        margin: 0 50px 10px;
+    
+    }
+    .tour_card_item {
+        width: 40%;
+        margin-bottom: 30px;
+    }
+
+  
+
+    .leader_list {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .container_glass {
+        width: 100%;
+    }
+
+    .glass {
+        flex-wrap: wrap;
+        width: 20%;
+        height: 100px;
+        margin: 20px 8px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        text-align: center;
+        padding: 0 30px;
+
+    }
+
+    .container_glass {
+        display: flex;
+        margin-right: 40px;
+    }
+
+    .footer {
+        display: flex;
+        width: 60%;
+        padding: 0 20px;
+        margin-bottom: 1px;
+
+    }
+
+    .aboutus {
+        width: 40%;
+    }
+
+    .socials {
+        width: 30%;
+        padding: 50px 0;
+    }
+
+    .contactus {
+        margin-right: 12px;
+        width: 30%;
+    }
+    .caret-container {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container{
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .header_bottom {
+        flex-direction: row;
+    }
+
+    .header_top {
+        justify-content: space-between;
+
+    }
+
+    .selected {
+        background-color: var(--primary-color);
+        color: #fff;
+        border-radius: 12px;
+    }
+
+    .header_bottom_right,
+    .header_bottom_left {
+        margin-right: 5px;
+    }
+
+    
+
+    .tour_list {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .tour_card_item {
+        width: 20%;
+        margin-bottom: 30px;
+    }
+
+    .caret-container {
+        display: none; 
+    }
+
+    
+    .leader_list {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .container_glass {
+        width: 100%;
+    }
+
+    .glass {
+        flex-wrap: wrap;
+        width: 20%;
+        height: 100px;
+        margin: 20px 20px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .container_glass {
+        display: flex;
+        margin-right: 30px;
+    }
+
+    .footer {
+        display: flex;
+        width: 100%;
+        margin-bottom: 1px;
+
+    }
+
+    .aboutus {
+        width: 30%;
+    }
+
+    .socials {
+        width: 40%;
+        padding: 50px 0;
+    }
+
+    .contactus {
+        margin-right: 12px;
+        width: 30%;
+    }
+    .caret{
+        font-size: 32px;
+        color: #0077ff;
+    }
+    .caret-container {
+        background-color: #d6eeff;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        border: 1px solid #0077ff;
+    }
+    .caret-container:hover {
+        background-color: #fff;
+    }
+}
+
+
+
+
+.faq {
+    width: 80%;
+    margin: 20px auto;
+    color: var(--color);
+
+}
+.feqtitle{
+    margin: 10px 10px 10px 0 ;
+}
+.q-item {
+    border: 1px solid #ddd;
+    border-radius: 12px;
+}
+
+.q-header {
+    background-color: #f5f5f5;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 2px;
+color: #000;
+}
+
+.q-body {
+    padding: 15px;
+    display: none;
+}
+
+strong {
+    color: #007bff;
+}
+

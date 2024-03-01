@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="login.css" />
+    <title>login</title>
+  </head>
+  <body>
+    <div class="container-all">
+      <div class="container">
+        <div class="box">
+          <p class="title">ورود به دزفول گشت</p>
+          <form class="auth-login-form" method="POST">
+            <div class="mb-1">
+              <input
+                class="form-control"
+                type="text"
+                autocomplete="on"
+                placeholder="ایمیل"
+                id="Email"
+                name="Email"
+                dir="ltr"
+                tabindex="1"
+                autofocus="autofocus"
+                value=""
+                required="required"
+              />
+              <span id="text-danger-email" class="error_wrapper text-danger"></span>
+            </div>
+            <div class="mb-1">
+              <div class="input-group">
+                <input
+                  class="form-control"
+                  type="password"
+                  autocomplete="off"
+                  placeholder="رمز عبور"
+                  id="password"
+                  dir="ltr"
+                  tabindex="2"
+                  name="password"
+                  aria-describedby="login-password"
+                  required="required"
+                />
+                <span class="input-group-text cursor-pointer" id="P">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-eye"
+                  >
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                  </svg>
+                </span>
+                <span id="text-danger-password" class="error_wrapper text-danger"></span>
+
+              </div>
+            </div>
+            <div class="mb-2">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="remember_me"
+                  name="_remember_me"
+                  value="on"
+                  tabindex="3"
+                />
+                <label class="form-check-label" for="remember_me">
+                  من را به خاطر بسپار</label
+                >
+              </div>
+            </div>
+            <div class="btnlogin">
+              <button
+                type="submit"
+                class="btn"
+                name="_submit"
+                value="ورود"
+                tabindex="4"
+                id="login"
+              >
+                <p>ورود کاربر</p>
+              </button>
+              <button
+                type="submit"
+                class="btn"
+                name="_submit"
+                value="ورود"
+                tabindex="4"
+                id="login"
+              >
+                <p>ورود لیدر</p>
+              </button>
+            </div>
+          </form>
+          <div class="divider">
+            <div class="divider-text">در دزفول گشت حساب کاربری ندارید؟</div>
+          </div>
+          <div class="text-center">
+            <a href="../register/register.html" class="btn" id="register-btn"
+              >ثبت نام</a
+            >
+          </div>
+          <div class="center-container">
+            <a href="../../index.html" class="back">بازگشت به صفحه اصلی</a>
+          </div>
+        </div>
+      </div>
+      <div class="left">
+        <img src="../../assets/image/login-main.svg" alt="">
+      </div>
+    </div>
+    <script src="login.js"></script>
+    <script src="../../theme.js"></script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+:root{
+    --primary-color:#288ed9;
+    --background:#fff;
+    --color: #000;
+}
+.dark-mod{
+    --background:#282727;
+    --color: #fff;
+}
+.leader_list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.leader-card{
+    width: 250px;
+    margin-bottom: 30px;
+    background: var(--background);
+    /*linear-gradient(to bottom , rgba(214,238,255,0) 0 ,#d6eeff 100%);*/
+
+}
+.visit{
+    background-color: #fff;
+    color: #0077ff;
+}
+.visit:hover{
+    background-color: #0077ff;
+    color: #e0efff;
+}
+.leaders_section_title{
+    margin-top: 40px;
+}

@@ -1,0 +1,49 @@
+.lead_name{
+    text-align: center;
+    width: 80%;
+    background-color: #e0efff;
+    margin: 10px auto;
+    border-radius: 10px;
+    height: 50px;
+    padding: 10px;
+}
+.img-full{
+    width: 80%;
+    margin: 10px auto;
+    border-radius: 5px;
+    height: 300px;
+}
+.content{
+    width: 80%;
+    background-color: #e0efff;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+.content p{
+    padding: 20px;
+    text-align: justify;
+    line-height: 27px;
+}
+.comment{
+    width: 80%;
+border-radius: 10px;
+    margin: 30px auto;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+}
+.comment h3{
+    text-align: center;
+    padding: 20px;
+}
+#text{
+    margin: 10px 20px;
+}
+#lable{
+    margin: 10px 20px;
+
+}
+#submit{
+    width: 100px;
+    
+}

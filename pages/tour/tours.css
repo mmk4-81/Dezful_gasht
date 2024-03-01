@@ -1,0 +1,11 @@
+
+.tour_list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.tour_card_item{
+    margin-bottom: 30px;
+}
+.tour_card_item {
+    display: block;
+  }
