@@ -1,56 +1,53 @@
-# 🌍 Dezful Gasht | دزفول گشت  
+# 🌍 Dezful Gasht  
 
-یک پروژه‌ی دانشگاهی برای معرفی تورهای مسافرتی و جاذبه‌های گردشگری دزفول  
-## آذر 1402
+A **university project** showcasing travel tours and tourist attractions in Dezful, Iran.  
 
----
-
-## 🚀 معرفی پروژه  
-دزفول گشت یک لندینگ پیج استاتیک برای نمایش تورهای مسافرتی، معرفی لیدرهای تور، و همچنین جاذبه‌های گردشگری دزفول است. این پروژه با استفاده از HTML، CSS و JavaScript توسعه داده شده و دارای قابلیت‌های زیر است:  
-
-### ✨ ویژگی‌ها  
-- 📌 نمایش اطلاعات تورهای گردشگری دزفول  
-- 👤 معرفی لیدرهای تور همراه با بخش نظرات کاربران  
-- 🏛 بخش "دزفول‌شناسی" برای نمایش جاذبه‌های گردشگری  
-- 🌙 دارای تم دارک برای تجربه کاربری بهتر  
-- 💬 بخش کامنت‌ها زیر پروفایل هر لیدر تور  
-- 🎨 طراحی واکنش‌گرا (Responsive Design) برای نمایش در موبایل و دسکتاپ  
-
-📌 نکته: این ریپازیتوری فقط شامل بخش استاتیک سایت است و بخش بک‌اند و پنل ادمین که با PHP توسعه داده شده، در اینجا قرار نگرفته است.  
+## December 2023
 
 ---
 
-## 🛠 تکنولوژی‌های استفاده‌شده  
-- HTML5 → ساختار صفحات  
-- CSS3 → استایل‌دهی و طراحی تم دارک  
-- JavaScript → ایجاد تعاملات و قابلیت‌های داینامیک  
-- FontAwesome → آیکون‌های گرافیکی  
-- Google Fonts → فونت‌های بهینه برای رابط کاربری زیباتر  
+## 🚀 Project Overview  
+Dezful Gasht is a **static landing page** designed to display travel tours, introduce tour leaders, and showcase Dezful’s tourist attractions.  
+This project is built using **HTML, CSS, and JavaScript**, and includes the following features:  
+
+### ✨ Features  
+- 📌 Display information about Dezful travel tours  
+- 👤 Introduce tour leaders with a user comment section  
+- 🏛 "Dezful Attractions" section to highlight popular tourist spots  
+- 🌙 Dark mode theme for better user experience  
+- 💬 Comments section under each tour leader profile  
+- 🎨 Responsive design for both mobile and desktop  
+
+📌 Note: This repository only contains the **static front-end**. The back-end and admin panel developed with PHP are not included here.  
 
 ---
 
-## 📸 پیش‌نمایش صفحات  
-### 🏕 صفحه اصلی | Home Page  
-📌 نمایش اطلاعات کلی درباره‌ی تورها، لیدرها و جاذبه‌های گردشگری  
+## 🛠 Technologies Used  
+- **HTML5** → Page structure  
+- **CSS3** → Styling and dark theme design  
+- **JavaScript** → Interactivity and dynamic features  
+- **FontAwesome** → Icons  
+- **Google Fonts** → Optimized fonts for better UI  
 
-### 🎭 صفحه لیدرهای تور | Tour Leaders  
-📌 لیست لیدرهای تور به همراه عکس، توضیحات و بخش نظرات کاربران  
-
-### 🏛 صفحه دزفول‌شناسی | Dezful Attractions  
-📌 نمایش مکان‌های دیدنی دزفول همراه با توضیحات و تصاویر  
-
-- demo pic
 ---
-![register](demo/register.png)
+
+## 📸 Page Previews  
+
+### 🏕 Home Page  
+📌 Overview of tours, tour leaders, and Dezful attractions  
+
+### 🎭 Tour Leaders Page  
+📌 List of tour leaders with photos, descriptions, and user comments  
+
+### 🏛 Dezful Attractions Page  
+📌 Display of Dezful’s tourist spots with images and descriptions  
+
 ---
-![header light](demo/headerlight.png)
 
-![header dark](demo/headerdark.png)
-
-![tours](demo/tours.png)
-![att](demo/att.png)
-![footer](demo/footer.png)
-
-
-
-
+### Demo Images
+![Register](demo/register.png)  
+![Header Light](demo/headerlight.png)  
+![Header Dark](demo/headerdark.png)  
+![Tours](demo/tours.png)  
+![Attractions](demo/att.png)  
+![Footer](demo/footer.png)
